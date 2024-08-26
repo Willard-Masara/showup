@@ -1,11 +1,15 @@
-/* App.css */
-
-/* General Styles */
+/* 
+styling 
+*/
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace, sans-serif;
   color: #333;
   line-height: 1.6;
+}
+p{
+  max-width: auto;
+  justify-content:right;
 }
 
 /* Header Styles */
@@ -31,12 +35,15 @@ body {
   width: 30vh; /* Make image width equal to height for a circular effect */
   border-radius: 50%; /* Circular image */
   overflow: hidden;
+  margin-top: 120px;
+
 }
 
 .myImage img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
 .App-header p {
@@ -171,7 +178,7 @@ footer {
 
   .screenshot img {
     max-width: 200px; 
-    max-height: 100px; 
+    max-height: 200px; 
   }
 
   section {
