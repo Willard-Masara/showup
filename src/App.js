@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
       <section>
       <h2 className="first">SKILLS</h2>
       <p>C,PYTHON, JAVASCRIPT,C#,REACT,DJANGO,FLASK,SQL,MONGODB,NODE.JS EXPRESS</p>
-      <h2 clasName="second">PROJECTS</h2>
+      <h2 className="second">PROJECTS</h2>
+      <p>Currently working as a freelancer, building websites for small businesses...</p>
       <ul>
         <a href="https://eva-quiz.netlify.app"><h2>QUIZ</h2></a>
         Tech Stack: React.js
@@ -63,7 +66,15 @@ function App() {
 
 
       </section>
-  <footer>&reg; MASARA DEVS 2024</footer>
+  <footer>&reg; MASARA DEVS 2024
+  <div class="contacts">
+            <p><a href="mailto:willardmasarat@gmail.com" >Email</a></p>
+            {/*<p><a href="https://twitter.com/MasaraWillard" >X</a></p>*/}
+            {/*<p><a href="https://youtube.com/@_geekout?si=DMqOFFe6UBRYfLOw" >YouTube</a></p>*/}
+           <p><a href="https://www.linkedin.com/in/willard-masara-a68210168" >LinkedIn</a></p>
+        </div>
+
+  </footer>
   </div>
   );
 }
