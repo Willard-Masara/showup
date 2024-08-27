@@ -49,14 +49,14 @@ function App() {
         <p>On github:</p><a href="https://www.github.com/Willard-Masara/Menu-Master">MenuMaster</a>
         SCREENSHOT:
         <div className="screenshot">
-          <img/>
+          <img src="/menu.png" alt="menuItem"/>
         </div>
         <a href="https://www.github.com/Willard-Masara/FindMe"><h2>FindMe</h2></a>
         Tech Stack: Node.js express, MongoDB, React
-        <p>Project Description: </p>
+        <p>Project Description: Coming Soon</p>
         A website meant to help curb child trafficking in South Africa, it works as a public notice board whereby a user uploads a picture of a missing child and then
         to the site, with circumstances of disappearance. It is meant to alert the public and help reduce reaction time by the relevant authorities
-        SCREENSHOT:
+        
 
 
       </ul>
